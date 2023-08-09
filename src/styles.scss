@@ -1,0 +1,531 @@
+
+@font-face {
+  font-family: Noirden;
+  font-weight: bold;
+  src: url('./assets/fonts/Noirden/Noirden-Bold.ttf');
+}
+
+@font-face {
+  font-family: Noirden;
+  font-weight: 700;
+  src: url('./assets/fonts/Noirden/Noirden-SemiBold.ttf');
+}
+@font-face {
+  font-family: Noirden;
+  src: url('./assets/fonts/Noirden/Noirden-Regular.ttf');
+}
+
+
+.mobile{
+    display: none;
+}
+
+
+.tablet{
+    display: none;
+}
+
+body{
+    margin : 0;
+    padding : 0;
+    width: 100vw    ;
+    height: 100vh;
+}
+
+.frame{
+    height: 100vh;
+    width: 100vw;
+    max-width:100%; 
+    scroll-snap-align: start ;
+} 
+.snapbottom{
+    scroll-snap-align: end  ;
+}
+.App{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.hero{
+    background-color: yellow;
+}
+
+.glimpse-one{
+    font-family: Noirden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        max-width: 990px;
+        font-size: 1.8em;
+        color: #5F5F5F;
+        font-weight: bold;
+    }
+    .h3{
+        font-size: 3em;
+        color: black;
+        max-width: 1000px;
+        font-weight: bold;
+    }
+    .glimpse-one-images{
+        display: flex;
+        align-items: center;
+    }
+    .glimpse-one-image{
+        width: 9vw;
+        margin: 0em 1vw;
+    }
+    .glimpse-one-app{
+        width: 12vw;
+        margin: 0em 2vw;
+    }
+}
+
+
+
+.working{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./assets//svg/background_one.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.working-slider{
+    display: flex;
+    max-width: 900px;
+    width: 90vw;
+    height: 100%;
+    margin-left: 10vw;
+    justify-content: center;
+    .working-slider-image{
+        width: 50vw;
+        position: sticky;
+        top: 0px;
+        height: 100vh;
+        display: flex;
+        margin-left: 10vw;
+        justify-content: center;
+        align-items:center;
+        img{
+            width: 200px;
+            position: absolute;
+            right: 5vw;
+        }
+    }
+    .working-slider-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+        text-align: start;
+        flex-direction: column;
+        .working-slider-text-heading{
+            font-size: 2em;
+            font-family: 'Noirden';
+            font-weight: bold;
+            color: black;
+            margin-bottom: 1em;
+        }
+        .working-slider-text-paragraph{
+            width: 30vw;
+            font-size: 1.7em;
+            text-align: justify;
+            font-weight: 700;
+            font-family: 'Noirden';
+            // font-weight: bold;
+            color: #303030;
+            margin-bottom: .5em;
+        }
+        .working-slider-text-sub-paragraph{
+            width: 30vw;
+            font-size: 1.5em;
+            text-align: justify;
+            font-family: 'Noirden';
+            // font-weight: bold;
+            color: #303030;
+        }
+    }
+}
+
+.working-heading{
+    font-size: 3em;
+    font-family: 'Noirden';
+    font-weight: bold;
+    background-image: url(./assets//svg/background_one.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    padding-block: 1em;
+    width: 100vw;
+    // box-shadow: 0px 10px 10px 0px white;
+    background-color: white;
+    z-index: 1;
+}
+
+.invisible {
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+.visible {
+    opacity: 1;
+    transition: opacity .2s linear;
+}
+
+
+.wow{
+    width: 30vw;
+}
+
+.app-download-button{
+    margin-top: 1em;
+    img{
+        width: 13vw;
+        max-width: 180px;
+    }
+}
+.app-download-button:first-child{
+    margin-right: 1em;
+    
+}
+
+
+.wow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    max-width: 1000px;
+    
+    
+    .wow-right{
+        text-align: left;
+        margin-left: 5vw;
+        width: 50vw;
+        color: #303030;
+        ;
+        a{
+            margin-right: 20px;
+        }
+    }
+}
+
+.glimpse-two{
+    .p-top{
+        margin-bottom: 100px;
+        font-weight: bold;
+    }
+}
+
+
+.love-back{
+    background: white;
+    
+}
+
+
+.love{
+    text-align: left;
+    margin-left: 5vw;
+    width: 50vw;
+    color: #303030;
+    a{
+        margin-right: 20px;
+    }
+}
+.sub-paragraph-love{
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    font-size: 1.5em;
+    padding: 1em;
+    color: white;
+    font-family: "Noirden";
+    font-weight: bold;
+    span{
+        margin-right: 30px;
+        
+    }
+}
+
+
+
+
+
+.glimpse-one-image-sm{
+    width: 100%;
+    margin: 0em 1vw;
+}
+
+
+.storebuttons{
+    margin-top:1em;
+    .app-download-button{
+        img{
+            width: 20vw;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
+
+    .glimpse-one-tab{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .glimpse-one-app{
+            height: 40vh;
+            width: inherit;
+            margin: 2em;
+        }
+        .glimpse-one-image{
+            width: 14vw
+        }
+    }
+    
+    .glimpse-one{
+        .h3{
+            font-size:1.8em; 
+            margin: 1em;
+        }
+        p{
+            font-size: 1.5em;
+            margin: 1em;
+            margin-top: 0px;
+        }
+    }
+
+    .glimpse-two{
+        .p-top{
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+    }
+   
+
+    .wow-container{
+
+        .wow{
+            width: 50vw;
+        }
+        .wow-right{
+            justify-content: center;
+            align-items: center;
+            width: 70vw;
+            text-align: center;
+            p{
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .storebuttons{
+        margin-top:1em;
+        .app-download-button{
+            img{
+                width: 20vw;
+            }
+        }
+    }
+
+
+
+    .footer{
+        font-size: 1em;
+        span{
+            margin-right: 10px;
+        }
+    }
+
+    
+
+
+
+}
+@media screen and (max-width: 650px) {
+
+    .desktop{
+        display: none;
+        
+    }
+    
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .glimpse-one-app-sm{
+        height: 30vh;
+        width: inherit;
+    }
+    
+    .glimpse-one{
+        background-color: #F6F6F6;
+        .h3{
+            font-size:1.8em; 
+        }
+        p{
+            font-size: 1.4em;
+            margin: 1em;
+        }
+    }
+
+    .wow-container{
+
+        .wow{
+            width: 70vw;
+        }
+    }
+
+
+    .storebuttons{
+        // width: 100vw;
+        .app-download-button{
+            width: min-content;
+            img{
+                width: 20vw;
+            }
+        }
+    }
+
+    .working{
+        .working-heading{
+            font-size: 2em;
+            padding-block: .5em;
+        }
+
+        .working-slider{
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+            .working-slider-image{
+                width: 90vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: -5px;
+                img{
+                    right :inherit;
+                    top: 14vh;
+                    // width: 90vw;
+                    width: auto;
+                    height: 45vh;
+                    max-width: 190px;
+
+                }
+            }
+            .working-slider-text{
+                width: 90vw;
+                justify-content: end;
+                align-items: center;
+                padding-bottom: 10vh;
+                max-height: 95vh;
+                margin: 1px;
+                .working-slider-text-inner{
+                    width: 100%;
+                    height: 35vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .working-slider-text-heading{
+                        font-size: 1.3em;
+                        width: 95%;
+                        margin-bottom:1em;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    .working-slider-text-paragraph{
+                        font-size: 1em;
+                        width: 80%;
+                        // padding-block: .5em;
+                        text-align: center;
+                    }
+                    .working-slider-text-sub-paragraph{
+                        font-size: .8em;
+                        width: 90%;
+                        // padding-block: .5em;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        font-size: .6em;
+        span{
+            margin-right: 10px;
+        }
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .desktop{
+        display: none;
+        
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+    .glimpse-one-app-sm{
+        width: inherit;
+        height: 40vh;
+        // margin-bottom: 50px;
+    }
+
+
+
+    
+    .glimpse-one{
+        background-color: #F6F6F6;
+        .h3{
+            font-size:1.6em; 
+            margin: 1em;
+        }
+        p{
+            font-size: 1em;
+            margin: 1em;
+        }
+    }
+
+    .glimpse-two{
+        .p-top{
+            margin-bottom: 100px;
+            font-weight: bold;
+        }
+    }
+
+
+
+}
