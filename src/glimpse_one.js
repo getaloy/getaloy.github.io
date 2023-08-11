@@ -14,36 +14,36 @@ function GlimpseOne() {
     <div className='frame glimpse-one'>
       
         <div className='h3'>Earn loyalty points from your favourite outlets</div>
-        <p>Earn points every time you indulge in retail therapy – because being loyal never felt this rewarding</p>
+        <p className='p-top'>Earn points every time you indulge in retail therapy – because being loyal never felt this rewarding</p>
 
         <div className='desktop'>
             <div className=' glimpse-one-images '>
-            <img className='glimpse-one-image' src={cookies} />
-            <img className='glimpse-one-image' src={pizza} />
-            <img className='glimpse-one-image' src={icecream} />
-            <img className='glimpse-one-app' src={appLayout} />
-            <img className='glimpse-one-image' src={coffee} />
-            <img className='glimpse-one-image' src={vegetables} />
-            <img className='glimpse-one-image' src={medicine} /> 
+            <img className='glimpse-one-image'  alt="cookies" src={cookies} />
+            <img className='glimpse-one-image' alt="pizza"  src={pizza} />
+            <img className='glimpse-one-image' alt="icecream"  src={icecream} />
+            <img className='glimpse-one-app' alt="appLayout"  src={appLayout} />
+            <img className='glimpse-one-image' alt="coffee"  src={coffee} />
+            <img className='glimpse-one-image' alt="vegetables" src={vegetables} />
+            <img className='glimpse-one-image' alt="medicine" src={medicine} /> 
             </div>
         </div>
         <div className='tablet glimpse-one-tab'>
             <div className=' glimpse-one-images '>
-            <img className='glimpse-one-app' src={appLayout} />
+            <img className='glimpse-one-app' alt='appLayout' src={appLayout} />
             </div>
             <div className=' glimpse-one-images '>
-            <img className='glimpse-one-image' src={cookies} />
-            <img className='glimpse-one-image' src={pizza} />
-            <img className='glimpse-one-image' src={icecream} />
-            <img className='glimpse-one-image' src={coffee} />
-            <img className='glimpse-one-image' src={vegetables} />
-            <img className='glimpse-one-image' src={medicine} /> 
+            <img className='glimpse-one-image' alt="cookies" src={cookies} />
+            <img className='glimpse-one-image' alt="pizza" src={pizza} />
+            <img className='glimpse-one-image' alt="icecream" src={icecream} />
+            <img className='glimpse-one-image' alt="coffee" src={coffee} />
+            <img className='glimpse-one-image' alt="vegetables" src={vegetables} />
+            <img className='glimpse-one-image' alt="medicine" src={medicine} /> 
             </div>
         </div>
 
         <div className='mobile'>
-          <img className='glimpse-one-app-sm' src={appLayout} />
-          <img className='glimpse-one-image-sm' src={catalog} />
+          <img className='glimpse-one-app-sm'  alt='appLauyot' src={appLayout} />
+          <img className='glimpse-one-image-sm' alt='catalog' src={catalog} />
         </div>
 
         

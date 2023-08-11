@@ -2,7 +2,7 @@ import React from 'react'
 import appStore from '../assets/glimpse-two/app_store.png'
 import playStore from '../assets/glimpse-two/play_store.png'
 
-function AppLinkButtons(props) {
+function BusinessAppLinkButtons(props) {
 
  
   return (
@@ -10,11 +10,11 @@ function AppLinkButtons(props) {
    
     <div className={`storebuttons ${props.specialClass}`}>
         <a 
-          href='https://apps.apple.com/in/app/aloy-loyalty-benefits/id6455374651' className='app-download-button'
+          href='https://apps.apple.com/in/app/aloy-business/id6452754331' className='app-download-button'
         >
           <img src={appStore} alt='appstore' />
         </a>
-        <a href='https://play.google.com/store/apps/details?id=com.getaloy.user.aloyuser&hl=en' className='app-download-button'><img src={playStore} alt='playstore' /></a>
+        <a href='https://play.google.com/store/apps/details?id=com.getaloy.merchant.aloy' className='app-download-button'><img src={playStore} alt='playstore' /></a>
     </div> 
     
 
@@ -23,4 +23,4 @@ function AppLinkButtons(props) {
   )
 }
 
-export default AppLinkButtons
+export default BusinessAppLinkButtons

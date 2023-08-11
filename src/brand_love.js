@@ -1,34 +1,27 @@
-import React , {useState, useRef, useEffect} from 'react'
+import React  from 'react'
 import { useInView } from 'react-intersection-observer';
 import setup from './assets/brand-love/setup.png'
 import drive from './assets/brand-love/drive.png'
 import smooth from './assets/brand-love/smooth.png'
-import appStore from './assets/glimpse-two/app_store.png'
-import playStore from './assets/glimpse-two/play_store.png'
-import AppLinkButtons from './components/app_link_buttons';
+import BusinessAppLinkButtons from './components/business_app_link_buttons';
 
 function BrandLove() {
 
-
-    
     const {ref : imageOneRef ,  inView : imageOneInView}  = useInView()
     const {ref : imageTwoRef ,  inView : imageTwoInView}  = useInView()
     const {ref : imageThreeRef ,  inView : imageThreeInView}  = useInView()
 
-
-    
-
   return (
     <>
-    <div className='working love-back' >
+    <div className='working love-back' id='aloy-for-business' >
       <div className="working-heading love-back">
-        How does Aloy work?
+        Why brands love Aloy?
       </div>
-      <div className='working-slider'>
-        <div className='working-slider-image'>
-            <img src={setup} class={` ${imageOneInView ? "visible" : "invisible"}`} />
-            <img src={drive} class={`${drive} ${imageTwoInView ? "visible" : "invisible"}`} />
-            <img src={smooth}  class={`${imageThreeInView ? "visible" : "invisible"}`} />
+      <div className='working-slider slider-love'>
+        <div className='working-slider-image love-slider-image-back'>
+            <img src={setup}  alt="Easy to set up" class={` ${imageOneInView ? "visible" : "invisible"}`} />
+            <img src={drive} alt='Drive higher numbers' class={`${drive} ${imageTwoInView ? "visible" : "invisible"}`} />
+            <img src={smooth} alt=' Smooth customer satisfaction'  class={`${imageThreeInView ? "visible" : "invisible"}`} />
         </div>
         <div>
         <div className='frame working-slider-text'>
@@ -42,7 +35,7 @@ function BrandLove() {
               <div className='working-slider-text-sub-paragraph sub-paragraph-love'>
                 GET ALOY FOR BUSINESS
               </div>
-              <AppLinkButtons/>
+              <BusinessAppLinkButtons  aloy={false} />
           </div>
         </div  >
         <div className='frame working-slider-text'>
@@ -56,7 +49,7 @@ function BrandLove() {
               <div className='working-slider-text-sub-paragraph sub-paragraph-love'>
                 GET ALOY FOR BUSINESS
               </div>
-              <AppLinkButtons/>
+              <BusinessAppLinkButtons aloy={false}/>
             </div>
         </div>
        
@@ -69,7 +62,7 @@ function BrandLove() {
               <div className='working-slider-text-sub-paragraph sub-paragraph-love'>
                 GET ALOY FOR BUSINESS
               </div>
-              <AppLinkButtons/> 
+              <BusinessAppLinkButtons aloy={false}/> 
             </div>
         </div>
         </div>

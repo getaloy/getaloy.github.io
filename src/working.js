@@ -1,4 +1,4 @@
-import React , {useState, useRef, useEffect} from 'react'
+import React from 'react'
 import { useInView } from 'react-intersection-observer';
 import scanme from './assets/working/scanme.png'
 import congrats from './assets/working/congrats.png'
@@ -16,15 +16,15 @@ function Wroking() {
     
   return (
     <>
-    <div className='working' >
+    <div className='working' id='how-it-works'>
       <div className="working-heading">
         How does Aloy work?
       </div>
       <div className='working-slider'>
-        <div className='working-slider-image'>
-            <img src={scanme} class={` ${imageOneInView ? "visible" : "invisible"}`} />
-            <img src={congrats} class={`${congrats} ${imageTwoInView ? "visible" : "invisible"}`} />
-            <img src={gain}  class={`${imageThreeInView ? "visible" : "invisible"}`} />
+        <div className='working-slider-image working-slider-image-back'>
+            <img src={scanme} alt='Scan me!' class={` ${imageOneInView ? "visible" : "invisible"}`} />
+            <img src={congrats} alt='Gaining points have never been easier' class={`${congrats} ${imageTwoInView ? "visible" : "invisible"}`} />
+            <img src={gain} alt=' Gain monetary benefits'  class={`${imageThreeInView ? "visible" : "invisible"}`} />
         </div>
         <div>
         <div className='frame working-slider-text'>
