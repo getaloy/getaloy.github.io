@@ -33,7 +33,7 @@ function Wroking() {
                 Scan me!
             </div>
             <div ref={imageOneRef} className='working-slider-text-paragraph'>
-                Walk into your favourite outlet and show your QR at the time of billing
+            Walk into your favourite outlet and show your QR at the time of billing
             </div>
             <div className='working-slider-text-sub-paragraph'>
                 *Currently available only in Bangalore
@@ -46,7 +46,7 @@ function Wroking() {
                 Gaining points have never been easier
             </div>
             <div ref={imageTwoRef} className='working-slider-text-paragraph'>
-                Loyalty Rewards starts showing in as soon as the merchant scans your QR. You can see your total points in the outlet’s profile
+            Loyalty Rewards starts showing in as soon as the merchant scans your QR. You can see your total points in the outlet’s profile
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@ function Wroking() {
                 Gain monetary benefits
             </div>
             <div ref={imageThreeRef}  className='working-slider-text-paragraph'>
-                The next time to visit the same outlet, use your Loyalty points for cash discounts on your total bill
+            The next time to visit the same outlet, use your Loyalty points for cash discounts on your total bill
             </div>
            </div>
         </div>

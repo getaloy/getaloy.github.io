@@ -30,7 +30,7 @@ function BrandLove() {
                   Easy to set up
               </div>
               <div ref={imageOneRef} className='working-slider-text-paragraph'>
-                  Streamline customer rewards effortlessly with our intuitive loyalty points system – simple setup, seamless management
+              Streamline customer rewards effortlessly with our intuitive loyalty points system – simple setup, seamless management
               </div>
               <div className='working-slider-text-sub-paragraph sub-paragraph-love'>
                 GET ALOY FOR BUSINESS
@@ -44,7 +44,7 @@ function BrandLove() {
               Drive higher numbers
               </div>
               <div ref={imageTwoRef} className='working-slider-text-paragraph'>
-                  Experience the power of customer loyalty in action and elevate your business to new heights as your customer footfalls skyrocket
+              Experience the power of customer loyalty in action and elevate your business to new heights as your customer footfalls skyrocket
               </div>
               <div className='working-slider-text-sub-paragraph sub-paragraph-love'>
                 GET ALOY FOR BUSINESS
@@ -58,7 +58,7 @@ function BrandLove() {
               <div className='working-slider-text-heading'>
                   Smooth customer satisfaction
               </div>
-              <div ref={imageThreeRef}  className='working-slider-text-paragraph'>Fret not! Aloy is here to solve those problems, where you can keep safe your points for as long as you need.</div>
+              <div ref={imageThreeRef}  className='working-slider-text-paragraph'>Elevate customer satisfaction and drive repeat business with just a few clicks</div>
               <div className='working-slider-text-sub-paragraph sub-paragraph-love'>
                 GET ALOY FOR BUSINESS
               </div>

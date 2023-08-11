@@ -14,7 +14,7 @@ function GlimpseOne() {
     <div className='frame glimpse-one'>
       
         <div className='h3'>Earn loyalty points from your favourite outlets</div>
-        <p className='p-top'>Earn points every time you indulge in retail therapy – because being loyal never felt this rewarding</p>
+        <p className='p-top'>Cafes, Restaurants, Grocery Store, Pharmacy, Ice-cream Parlour & more!</p>
 
         <div className='desktop'>
             <div className=' glimpse-one-images '>
