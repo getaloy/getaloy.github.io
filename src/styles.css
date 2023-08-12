@@ -425,7 +425,7 @@ body {
   text-align: left;
   padding: 1em;
   padding-top: 1.6em;
-  padding-right: 1.2 0.5em;
+  padding-inline: 2em;
   display: none;
   z-index: 3;
   background-color: rgb(240, 240, 211);
@@ -440,7 +440,7 @@ body {
 }
 .panel .close-button {
   display: flex;
-  width: 100%;
+  width: 95%;
   justify-content: right;
   margin-bottom: 2em;
 }
@@ -485,6 +485,15 @@ body {
     transform: translateY(0px);
   }
 }
+.working-slider-text-inner .storebuttons .app-download-button {
+  margin: 10px;
+  margin-left: 0;
+}
+
+.storebuttons-in-glimpse-two .app-download-button {
+  padding-inline-end: 10px;
+}
+
 @media screen and (max-width: 1410px) {
   .tablet {
     display: none;
@@ -506,13 +515,17 @@ body {
   }
   .glimpse-one .h3 {
     width: 70vw;
+    font-size: 2.5em;
   }
   .glimpse-two .p-top {
     font-size: 1.4em;
     margin-top: 1.4em;
   }
   .glimpse-two .h3 {
-    font-size: 2em;
+    font-size: 3em;
+  }
+  .storebuttons-in-glimpse-two .app-download-button {
+    padding: 10px;
   }
   .hero-part .main-text {
     width: 80vw;
@@ -571,6 +584,10 @@ body {
   }
   .panel div {
     margin-bottom: 1em;
+  }
+  .working-slider-text-inner .storebuttons .app-download-button {
+    margin: 10px;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -759,6 +776,10 @@ body {
 .slider-love .storebuttons .app-download-button {
   margin: 0;
 }
+.slider-love .working-slider-text-inner .storebuttons .app-download-button {
+  margin: 10px;
+  margin-left: 0;
+}
 
 @media screen and (max-width: 650px) {
   .desktop {
@@ -933,6 +954,10 @@ body {
     margin: inherit;
     width: 150px;
   }
+  .working-slider-text-inner .storebuttons .app-download-button {
+    margin: 10px;
+    margin-left: 10px;
+  }
 }
 @media screen and (max-width: 480px) {
   .desktop {
@@ -1029,12 +1054,13 @@ body {
     top: -40vw;
     height: 40vh;
     right: inherit;
-    left: inherit;
+    left: 0;
     font-size: 1.2em;
     bottom: inherit;
     display: none;
     margin: inherit;
     padding-top: 2.5em;
+    padding-inline: 2em;
     box-shadow: px 5px 10px -8px grey;
   }
   .close-button {
