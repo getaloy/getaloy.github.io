@@ -219,9 +219,6 @@ body {
 .wow-container .wow-right .storebuttons .app-download-button {
   margin: 0;
 }
-.wow-container .wow-right .storebuttons .app-download-button :first-child {
-  margin-right: 1em;
-}
 
 .glimpse-two .p-top {
   margin-bottom: 100px;
@@ -762,9 +759,6 @@ body {
 .slider-love .storebuttons .app-download-button {
   margin: 0;
 }
-.slider-love .storebuttons :first-child {
-  margin-right: 1em;
-}
 
 @media screen and (max-width: 650px) {
   .desktop {
@@ -950,6 +944,9 @@ body {
   .mobile {
     display: block;
   }
+  .header .logo img {
+    width: 70px;
+  }
   .glimpse-one-app-sm {
     width: inherit;
     height: 40vh;
@@ -1073,5 +1070,88 @@ body {
   }
   .storebuttons-in-glimpse-two {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) and (max-height: 780px) {
+  .header {
+    padding: 1em;
+  }
+  .storebuttons-in-hero .app-download-button img {
+    width: 150px;
+  }
+  .hero-part .main-text {
+    font-size: 40px;
+  }
+  .hero-part .main-text span {
+    line-height: 40px;
+  }
+  .arrow-image {
+    width: 50px;
+    margin-top: -90px;
+    margin-bottom: 50px;
+  }
+  .glimpse-one {
+    justify-content: center;
+    align-items: center;
+  }
+  .glimpse-one .h3 {
+    font-size: 1.4em;
+    margin-top: 30px;
+  }
+  .glimpse-one .p-top {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  .glimpse-one .glimpse-one-app-sm {
+    height: 35vh;
+    width: inherit;
+  }
+  .glimpse-two p {
+    width: 95vw;
+  }
+  .glimpse-two .wow {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 70vw;
+  }
+  .glimpse-two .p-top {
+    background-color: inherit;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  .glimpse-two .storebuttons-in-glimpse-two {
+    margin-top: inherit;
+  }
+  .glimpse-two .storebuttons-in-glimpse-two .app-download-button img {
+    padding-top: 0;
+    padding-inline: 0;
+    padding-bottom: 5px;
+    width: 120px;
+  }
+  .working .working-slider .working-slider-image {
+    height: 55vh;
+  }
+  .working .working-slider .working-slider-image img {
+    height: 40vh;
+  }
+  .working .working-slider .working-slider-text .working-slider-text-inner .working-slider-text-heading {
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .working .working-slider .working-slider-text .working-slider-text-inner .working-slider-text-paragraph {
+    font-size: 1em;
+  }
+  .working .working-slider .working-slider-text .working-slider-text-inner .working-slider-text-sub-paragraph {
+    margin-bottom: 0px;
+  }
+  .working .working-heading {
+    font-size: 1.5em;
+  }
+  .working .storebuttons .app-download-button img {
+    width: 100px;
+  }
+  .hero-part {
+    height: calc(100% - 100px);
   }
 }/*# sourceMappingURL=styles.css.map */

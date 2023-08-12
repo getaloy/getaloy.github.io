@@ -228,9 +228,9 @@ body{
         .storebuttons{
             .app-download-button{
                 margin: 0;
-                :first-child{
-                    margin-right: 1em;
-                }
+                // :first-child{
+                //     margin-right: 1em;
+                // }
             }
         }
     }
@@ -928,15 +928,15 @@ body{
         .app-download-button{
             margin: 0;
         }
-        :first-child{
-            margin-right: 1em;
-        }
+        // :first-child{
+        //     margin-right: 1em;
+        // }
 
 
         
     }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px)  {
 
     .desktop{
         display: none;
@@ -1182,6 +1182,15 @@ body{
         display: block;
     }
 
+
+    .header{
+        .logo{
+            img{
+                width: 70px;
+            }
+        }
+    }
+
     .glimpse-one-app-sm{
         width: inherit;
         height: 40vh;
@@ -1362,7 +1371,154 @@ body{
     }
 
 
+    @media screen and (max-height: 780px){
 
 
+        .header{
+            padding: 1em;
+        }
+    
+    
+        .storebuttons-in-hero{
+            .app-download-button{
+                img{
+                    width: 150px;
+                }
+            }
+        }
+    
+    
+        .hero-part{
+            .main-text{
+                font-size: 40px;
+                span{
+                    line-height:40px;
+                }
+            }
+        }
+    
+    
+        .arrow-image{
+            width: 50px;
+            margin-top: -90px;
+            margin-bottom: 50px;
+        }
+    
+    
+    
+    
+        .glimpse-one{
+            justify-content: center;
+            align-items: center;
+            .h3{
+                font-size: 1.4em;
+                margin-top: 30px;
+            }
+            .p-top{
+                font-size: 1.2em;
+                margin-bottom: 30px;
+            }
+    
+            .glimpse-one-app-sm{
+                height: 35vh;
+                width: inherit;
+            }
+        }
+    
+    
+    
+        .glimpse-two{
+    
+    
+            p{
+                width: 95vw;
+                // background-color: red;
+            }
+    
+            .wow{
+                margin-bottom: 0px;
+                margin-top: 0px;
+                width: 70vw;
+            }
+    
+            .p-top{
+                background-color: inherit;
+                margin-bottom: 40px;
+                margin-top: 10px;
+            }
+            .storebuttons-in-glimpse-two{
+                // margin-top: 10px;
+                margin-top: inherit;
+    
+                .app-download-button{
+                    img{
+                        padding-top: 0;
+                        padding-inline: 0;
+                        padding-bottom: 5px;
+                        width: 120px;
+                    }
+                }
+                
+            }
+    
+    
+            
+        }
+    
+    
+    
+       .working{
+        .working-slider{
+            .working-slider-image{
+                height: 55vh;
+                img{
+                    height: 40vh;
+    
+                }
+            }
+    
+            .working-slider-text{
+                .working-slider-text-inner{
+                    .working-slider-text-heading{
+                        font-size: 1.5em;
+                        margin: 0;
+                        margin-bottom: 10px;
+                    }
+                    .working-slider-text-paragraph{
+                        font-size: 1em;
+                        
+                    }
+    
+                    .working-slider-text-sub-paragraph{
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+    
+        }
+        .working-heading{
+            font-size: 1.5em;
+        }
+    
+    
+        .storebuttons{
+            .app-download-button{
+                img{
+                    width: 100px;
+                }
+            }
+        }
+       }
+
+
+       .hero-part{
+        height: calc(100% - 100px);
+       }
+    
+        
+    }
 
 }
+
+
+
