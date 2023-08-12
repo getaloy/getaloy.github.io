@@ -7,7 +7,6 @@ function AppLinkButtons(props) {
  
   return (
     <>
-   
     <div className={`storebuttons ${props.specialClass}`}>
         <a 
           href='https://apps.apple.com/in/app/aloy-loyalty-benefits/id6455374651' className='app-download-button'
