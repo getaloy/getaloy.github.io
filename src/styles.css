@@ -126,6 +126,11 @@ body {
   position: absolute;
   right: 0vw;
 }
+.working-slider .working-slider-image .congratsGif {
+  height: 250px;
+  margin-top: -150px;
+  margin-right: 30px;
+}
 .working-slider .working-slider-text {
   display: flex;
   justify-content: center;
@@ -140,7 +145,7 @@ body {
   font-family: "Noirden";
   font-weight: bold;
   color: black;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 .working-slider .working-slider-text .working-slider-text-paragraph {
   width: 40vw;
@@ -223,11 +228,11 @@ body {
 .glimpse-two .p-top {
   margin-bottom: 100px;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.7em;
   width: 80vw;
 }
 .glimpse-two .h3 {
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: -0.5em;
 }
 
@@ -474,6 +479,120 @@ body {
   display: block;
 }
 
+.working-slider-text-inner .storebuttons .app-download-button {
+  margin: 10px;
+  margin-left: 0;
+}
+
+.storebuttons-in-glimpse-two .app-download-button {
+  padding-inline-end: 10px;
+}
+
+.coinFlip:hover {
+  animation: flipCoin 0.5s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.coin1 {
+  position: relative;
+  top: -50vh;
+  left: -30vw;
+  width: 50px;
+  animation-name: floating;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.coin2 {
+  position: relative;
+  top: -50vh;
+  left: 25vw;
+  width: 30px;
+  filter: blur(2px);
+  animation-name: floating;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.coin3 {
+  position: relative;
+  top: -77vh;
+  left: 10vw;
+  width: 70px;
+  transform: rotatey("100deg");
+  filter: blur(2px);
+  animation-name: floating;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.coin4 {
+  position: relative;
+  top: -60vh;
+  left: 30vw;
+  width: 50px;
+  animation-name: floating;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.coin5 {
+  position: relative;
+  top: -40vh;
+  left: -30vw;
+  width: 30px;
+  filter: blur(2px);
+  animation-name: floating;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.coin6 {
+  position: relative;
+  top: -80vh;
+  left: -30vw;
+  width: 50px;
+  transform: rotate(70deg);
+  animation-name: floating, blur;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(1px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+@keyframes flipCoin {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
 @keyframes floating {
   0% {
     transform: translateY(0px);
@@ -485,13 +604,8 @@ body {
     transform: translateY(0px);
   }
 }
-.working-slider-text-inner .storebuttons .app-download-button {
-  margin: 10px;
-  margin-left: 0;
-}
-
-.storebuttons-in-glimpse-two .app-download-button {
-  padding-inline-end: 10px;
+.coindiv {
+  height: 0;
 }
 
 @media screen and (max-width: 1410px) {
@@ -721,6 +835,12 @@ body {
     width: auto;
     height: 45vh;
   }
+  .working .working-slider .working-slider-image .congratsGif {
+    height: auto;
+    margin-top: 30px;
+    height: 20vh;
+    margin-right: 0px;
+  }
   .working .working-slider .working-slider-text {
     width: 90vw;
     justify-content: end;
@@ -768,6 +888,21 @@ body {
   .working .love-slider-image-back {
     background-color: white;
     height: 105vw;
+  }
+  .coin1 {
+    left: -20vw;
+    padding: 1em;
+  }
+  .coin3 {
+    top: -85vh;
+    width: 50px;
+  }
+  .coin6 {
+    top: -80vh;
+    width: 40px;
+  }
+  .coin5 {
+    top: -30vh;
   }
 }
 .slider-love .storebuttons {
@@ -1097,8 +1232,32 @@ body {
   .storebuttons-in-glimpse-two {
     flex-direction: column;
   }
+  .coin1 {
+    width: 20px;
+  }
+  .coin6 {
+    left: -60vw;
+    width: 30px;
+  }
+  .coin3 {
+    left: 30vw;
+    width: 40px;
+  }
+  .coin4 {
+    width: 35px;
+    left: 25vw;
+  }
+  .coin5 {
+    display: none;
+  }
 }
 @media screen and (max-width: 480px) and (max-height: 780px) {
+  .coin2 {
+    left: 40vw;
+  }
+  .coin6 {
+    top: -85vh;
+  }
   .header {
     padding: 1em;
   }

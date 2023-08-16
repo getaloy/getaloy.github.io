@@ -1,8 +1,9 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer';
 import scanme from './assets/working/scanme.png'
-import congrats from './assets/working/congrats.png'
+// import congrats from './assets/working/congrats.png'
 import gain from './assets/working/gain.png'
+import congrstsGif from "./assets/working/congratsgif.gif"
 
 function Wroking() {
 
@@ -11,7 +12,7 @@ function Wroking() {
     const {ref : imageOneRef ,  inView : imageOneInView}  = useInView()
     const {ref : imageTwoRef ,  inView : imageTwoInView}  = useInView()
     const {ref : imageThreeRef ,  inView : imageThreeInView}  = useInView()
-
+  
 
     
   return (
@@ -23,14 +24,14 @@ function Wroking() {
       <div className='working-slider'>
         <div className='working-slider-image working-slider-image-back'>
             <img src={scanme} alt='Scan me!' class={` ${imageOneInView ? "visible" : "invisible"}`} />
-            <img src={congrats} alt='Gaining points have never been easier' class={`${congrats} ${imageTwoInView ? "visible" : "invisible"}`} />
+            <img src={congrstsGif} alt='Gaining points have never been easier' class={` ${imageTwoInView ? "visible" : "invisible"}`} />
             <img src={gain} alt=' Gain monetary benefits'  class={`${imageThreeInView ? "visible" : "invisible"}`} />
         </div>
         <div>
         <div className='frame working-slider-text'>
            <div className='working-slider-text-inner' >
            <div className='working-slider-text-heading'>
-                Scan me!
+           Show your QR Code!
             </div>
             <div ref={imageOneRef} className='working-slider-text-paragraph'>
             Walk into your favourite outlet and show your QR at the time of billing
@@ -43,10 +44,10 @@ function Wroking() {
         <div className='frame working-slider-text'>
           <div  className='working-slider-text-inner' >
           <div className='working-slider-text-heading'>
-                Gaining points have never been easier
+          Loyalty Points are credited instantly
             </div>
             <div ref={imageTwoRef} className='working-slider-text-paragraph'>
-            Loyalty Rewards starts showing in as soon as the merchant scans your QR. You can see your total points in the outlet’s profile
+            Loyalty Rewards starts showing up as soon as the merchant scans your QR.
             </div>
           </div>
         </div>
@@ -55,7 +56,7 @@ function Wroking() {
            <div  className='working-slider-text-inner' >
 
            <div className='working-slider-text-heading'>
-                Gain monetary benefits
+           Redeem for Cash Discounts
             </div>
             <div ref={imageThreeRef}  className='working-slider-text-paragraph'>
             The next time to visit the same outlet, use your Loyalty points for cash discounts on your total bill

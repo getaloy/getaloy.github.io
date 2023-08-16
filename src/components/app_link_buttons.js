@@ -15,8 +15,6 @@ function AppLinkButtons(props) {
         </a>
         <a href='https://play.google.com/store/apps/details?id=com.getaloy.user.aloyuser&hl=en' className='app-download-button'><img src={playStore} alt='playstore' /></a>
     </div> 
-    
-
     </>
     
   )

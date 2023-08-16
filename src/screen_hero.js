@@ -6,7 +6,7 @@ import AppLinkButtons from './components/app_link_buttons'
 import close from './assets/svg/close.svg'
 import arrow from './assets/hero/arrow.svg'
 import arrowDownBold from './assets/hero/arrow-down-bold.svg'
-// import back from './assets/hero/hero-back.svg'
+import coin from './assets/hero/coin.png'
 
 import { useState, useRef } from 'react';
 import { CSSTransition } from "react-transition-group";
@@ -74,6 +74,15 @@ function ScreenHero() {
             <AppLinkButtons specialClass="storebuttons-in-hero" />
           </div>
             <img  className='arrow-down' src={arrowDownBold} alt='down-directon-arrow' />
+      </div>
+      <div className='coindiv' >
+    
+      <img className='coin1 coinFlip' src={coin} alt='floating-coin'/> 
+      <img className='coin2 coinFlip' src={coin} alt='floating-coin'/> 
+      <img className='coin3 coinFlip' src={coin} alt='floating-coin'/> 
+      <img className='coin4 coinFlip' src={coin} alt='floating-coin'/> 
+      <img className='coin5 coinFlip' src={coin} alt='floating-coin'/> 
+      <img className='coin6 coinFlip' src={coin} alt='floating-coin'/> 
       </div>
     </>
   )
