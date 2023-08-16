@@ -572,7 +572,7 @@ body{
     top: -50vh;
     left: -30vw;
     width: 50px;
-    animation-name: floating ;
+    animation-name: floating, blur ;
     animation-delay: 0;
     animation-timing-function: ease-in-out;
     animation-duration: 4s;
@@ -586,7 +586,7 @@ body{
     left: 25vw;
     width: 30px;
     filter: blur(2px);
-    animation-name: floating ;
+    animation-name: floating ,blur;
     animation-delay: 0;
     animation-timing-function: ease-in-out;
     animation-duration: 6s;
@@ -599,8 +599,8 @@ body{
     left: 10vw;
     width: 70px;
     transform: rotatey('100deg');
-    filter: blur(2px);
-    animation-name: floating ;
+    // filter: blur(2px);
+    animation-name: floating, blur ;
     animation-delay: 0;
     animation-timing-function: ease-in-out;
     animation-duration: 5s;
@@ -612,7 +612,7 @@ body{
     top: -60vh;
     left: 30vw;
     width: 50px;
-    animation-name: floating ;
+    animation-name: floating, blur ;
     animation-delay: 0;
     animation-timing-function: ease-in-out;
     animation-duration: 4s;
@@ -623,8 +623,8 @@ body{
     top: -40vh;
     left: -30vw;
     width: 30px;
-    filter: blur(2px);
-    animation-name: floating ;
+    // filter: blur(2px);
+    animation-name: floating, blur ;
     animation-delay: 0;
     animation-timing-function: ease-in-out;
     animation-duration: 6s;
@@ -648,8 +648,14 @@ body{
     0%{
         filter: blur(0px);
     }
+    30%{
+        filter: blur(0px);
+    }
     50%{
-        filter: blur(1px);
+        filter: blur(4px);
+    }
+    70%{
+        filter: blur(0px);
     }
     100%{
         filter: blur(0px);

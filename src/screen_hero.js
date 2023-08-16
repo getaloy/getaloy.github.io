@@ -12,7 +12,6 @@ import { useState, useRef } from 'react';
 import { CSSTransition } from "react-transition-group";
 
 
-
 function ScreenHero() {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
@@ -37,7 +36,7 @@ function ScreenHero() {
         classNames="panel"
         nodeRef={nodeRef}
       >
-        <div id='panel' className='panel' ref={nodeRef}>
+        <div  id='panel' className='panel' ref={nodeRef}>
           <div className='close-button' > <button  onClick={handleClick} > 
           <img src={close} alt='close-button'/> 
            </button> </div>
@@ -62,7 +61,7 @@ function ScreenHero() {
             </button>
           </div>
         </div>
-        <div className='hero-part'>
+        <div  className='hero-part'>
             <div className='main-text'>
               <span>Loyalty </span>
               <span className='diff-color'>Benefits </span>
