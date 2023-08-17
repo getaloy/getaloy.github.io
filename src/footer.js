@@ -1,12 +1,13 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 function Footer() {
   return (
     <div className='snapbottom footer'>
         <div>Copyright© Aloy</div>
         <div>
-            <span> <a href='https://www.getaloy.com/privacy' >Privacy Policy</a> </span>
-            <span> <a href='https://www.getaloy.com/terms' >Term of use</a> </span>
+            <span> <Link to='/privacy' >Privacy Policy</Link> </span>
+            <span> <Link to='/terms' >Term of use</Link> </span>
             <span> <a href='mailto:hello@getaloy.com' >Contact us</a> </span>
         </div>
     </div>
