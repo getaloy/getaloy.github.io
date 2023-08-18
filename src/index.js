@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Terms from './terms';
 import Privacy from './privacy';
-
+// "homepage": "https://getaloy.github.io", -> for package.json 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
