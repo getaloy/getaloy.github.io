@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         {/* <Route path='/' element={<App/>}> */}
           <Route index element={<App />} />
@@ -18,7 +18,7 @@ root.render(
           <Route path="privacy" element={<Privacy />} />
           <Route path="terms" element={<Terms />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
