@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 function Footer() {
   return (
     <div className='snapbottom footer'>
-        <div>Copyright© Aloy</div>
+        <div>Copyright© Fortune9 Technologies</div>
         <div>
             <span> <Link to='/privacy' >Privacy Policy</Link> </span>
             <span> <Link to='/terms' >Term of use</Link> </span>
