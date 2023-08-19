@@ -230,7 +230,7 @@ body {
   color: #303030;
 }
 .wow-container .wow-right .storebuttons .app-download-button {
-  margin: 0;
+  margin: 10px;
 }
 
 .glimpse-two .p-top {
@@ -652,6 +652,10 @@ body {
   height: 0;
 }
 
+.storebuttons-in-hero .app-download-button {
+  margin-inline: 20px;
+}
+
 @media screen and (max-width: 1410px) {
   .tablet {
     display: none;
@@ -822,9 +826,6 @@ body {
   .wow-container .wow-right p {
     margin-top: 10px;
     font-size: 1.5em;
-  }
-  .storebuttons {
-    margin-top: 0.2em;
   }
   .storebuttons .app-download-button img {
     width: 20vw;
@@ -1105,8 +1106,8 @@ body {
     width: 100%;
   }
   .storebuttons-in-hero .app-download-button img {
+    margin-inline: 1em;
     width: 100px;
-    padding: 10px;
     width: 150px;
   }
   .panel {
@@ -1133,10 +1134,8 @@ body {
   }
   .storebuttons-in-glimpse-two {
     width: 100%;
+    display: flex;
     padding: inherit;
-  }
-  .storebuttons-in-glimpse-two .app-download-button {
-    margin: 0px 5px;
   }
   .storebuttons-in-glimpse-two .app-download-button img {
     margin: inherit;
@@ -1203,9 +1202,17 @@ body {
   }
   .glimpse-two .storebuttons-in-glimpse-two {
     width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .glimpse-two .storebuttons-in-glimpse-two .app-download-button {
+    padding-block-end: 0;
+    padding: 0;
+    margin: 0;
   }
   .glimpse-two .storebuttons-in-glimpse-two .app-download-button img {
-    padding-block: 10px;
+    padding: 0;
+    margin: 0;
     width: 150px;
   }
   .storebuttons-in-hero {
@@ -1215,9 +1222,6 @@ body {
     flex-direction: column;
     width: 100%;
     margin-top: -50px;
-  }
-  .storebuttons-in-hero .app-download-button {
-    margin: 0;
   }
   .storebuttons-in-hero .app-download-button img {
     width: 100px;
@@ -1313,6 +1317,9 @@ body {
   .header {
     padding: 1em;
   }
+  .storebuttons-in-hero .app-download-button {
+    margin: 1em;
+  }
   .storebuttons-in-hero .app-download-button img {
     width: 150px;
   }
@@ -1358,11 +1365,16 @@ body {
   }
   .glimpse-two .storebuttons-in-glimpse-two {
     margin-top: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  .glimpse-two .storebuttons-in-glimpse-two .app-download-button {
+    padding: 0;
+    margin: 0;
   }
   .glimpse-two .storebuttons-in-glimpse-two .app-download-button img {
-    padding-top: 0;
-    padding-inline: 0;
-    padding-bottom: 5px;
+    padding: 0;
+    margin: 0;
     width: 120px;
   }
   .working .working-slider .working-slider-image {

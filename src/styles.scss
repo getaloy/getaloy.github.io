@@ -246,7 +246,7 @@ body{
         color: #303030;
         .storebuttons{
             .app-download-button{
-                margin: 0;
+                margin: 10px;
                 // :first-child{
                 //     margin-right: 1em;
                 // }
@@ -723,6 +723,13 @@ body{
 }
 
 
+.storebuttons-in-hero{
+    .app-download-button{
+       margin-inline: 20px;
+    }
+}
+
+
 @media screen and (max-width: 1410px) {
 
 
@@ -968,7 +975,7 @@ body{
     }
 
     .storebuttons{
-        margin-top:.2em;
+        // margin-top:.2em;
         .app-download-button{
             img{
                 width: 20vw;
@@ -1346,8 +1353,8 @@ body{
         width: 100%;
         .app-download-button{
             img{
+                margin-inline: 1em;
                 width: 100px;
-                padding: 10px;
                 width: 150px;
 
             }
@@ -1388,10 +1395,9 @@ body{
 
     .storebuttons-in-glimpse-two{
         width: 100%;
+        display: flex;
         padding: inherit;
         .app-download-button{
-            margin: 0px 5px;
-
             img{
                 margin: inherit;
                 width: 150px;
@@ -1486,10 +1492,15 @@ body{
 
         .storebuttons-in-glimpse-two{
             width: 100%;
+            padding: 0;
+                       margin: 0;
             .app-download-button{
-                
+                padding-block-end: 0;
+                padding: 0;
+                       margin: 0;
                 img{
-                    padding-block: 10px ;
+                    padding: 0;
+                    margin: 0;
                     width: 150px;
                 }
             }
@@ -1510,12 +1521,10 @@ body{
         width: 100%;
         margin-top: -50px;
         .app-download-button{
-            margin: 0;
+            // margin: 10px;
             img{
                 width: 100px;
-                // padding: 10px;
                 width: 150px;
-
             }
         }
     }
@@ -1652,6 +1661,7 @@ body{
     
         .storebuttons-in-hero{
             .app-download-button{
+                margin: 1em;
                 img{
                     width: 150px;
                 }
@@ -1718,14 +1728,17 @@ body{
                 margin-top: 10px;
             }
             .storebuttons-in-glimpse-two{
-                // margin-top: 10px;
+              
                 margin-top: inherit;
-    
+                padding: 0;
+                       margin: 0;
+                
                 .app-download-button{
+                    padding: 0;
+                       margin: 0;
                     img{
-                        padding-top: 0;
-                        padding-inline: 0;
-                        padding-bottom: 5px;
+                        padding: 0;
+                        margin: 0;
                         width: 120px;
                     }
                 }
