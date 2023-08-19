@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: Noirden;
-  font-weight: 700;
+  font-weight: 600;
   src: url("./assets/fonts/Noirden/Noirden-SemiBold.ttf");
 }
 @font-face {
@@ -77,6 +77,7 @@ body {
   margin-bottom: 10vh;
   width: 90vw;
   font-size: 1.7em;
+  font-weight: 600;
 }
 .glimpse-one .h3 {
   font-size: 2em;
@@ -150,14 +151,16 @@ body {
   font-family: "Noirden";
   font-weight: bold;
   color: black;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.7em;
 }
 .working-slider .working-slider-text .working-slider-text-paragraph {
   width: 40vw;
   font-size: 1.6em;
   text-align: left;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Noirden";
+  line-height: 1.2em;
+  font-weight: 600;
   color: #303030;
   margin-bottom: 0.5em;
 }
@@ -166,8 +169,8 @@ body {
   font-size: 1.5em;
   text-align: start;
   font-family: "Noirden";
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 2em;
+  margin-bottom: 0px;
   color: #303030;
 }
 
@@ -232,7 +235,7 @@ body {
 
 .glimpse-two .p-top {
   margin-bottom: 100px;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.7em;
   width: 80vw;
 }
@@ -290,9 +293,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-.storebuttons .app-download-button {
-  margin: 1em;
-}
 .storebuttons .app-download-button img {
   width: 20vw;
 }
@@ -324,7 +324,7 @@ body {
   margin-right: 3vw;
   text-decoration: none;
   color: #5F5F5F;
-  font-size: 2em;
+  font-size: 28px;
 }
 .header .header-right button {
   background: none;
@@ -364,6 +364,7 @@ body {
   margin-block-end: 0px;
   margin: 1px;
   padding-block-start: 0px;
+  font-weight: 700;
   line-height: 70px;
 }
 .hero-part .main-text span::after {
@@ -669,6 +670,7 @@ body {
     margin-top: 1em;
     margin-bottom: 10vh;
     font-size: 2em;
+    font-weight: 600;
   }
   .glimpse-one .h3 {
     width: 70vw;
@@ -677,6 +679,7 @@ body {
   .glimpse-two .p-top {
     font-size: 1.4em;
     margin-top: 1.4em;
+    font-weight: 600;
   }
   .glimpse-two .h3 {
     font-size: 3em;
@@ -701,7 +704,7 @@ body {
     color: #CE8201;
   }
   .hero-part .main-text .storebuttons {
-    margin-top: 6em;
+    margin-top: 5em;
   }
   .working-slider-text {
     width: 60vw;
@@ -711,6 +714,7 @@ body {
   }
   .working-slider-text .working-slider-text-paragraph {
     font-size: 2.5em;
+    font-weight: 600;
     width: 100%;
   }
   .arrow-image {
@@ -734,6 +738,8 @@ body {
   .wow-container .wow-right p {
     margin-top: 5vh;
     width: 70vw;
+    font-weight: 500;
+    font-size: 2em;
   }
   .panel {
     width: 30vw;
@@ -743,7 +749,7 @@ body {
     margin-bottom: 1em;
   }
   .working-slider-text-inner .storebuttons .app-download-button {
-    margin: 10px;
+    margin: 5px;
     margin-left: 0;
   }
 }
@@ -778,6 +784,7 @@ body {
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 5vh;
+    font-weight: 600;
   }
   .glimpse-one .h3 {
     width: 70vw;
@@ -789,7 +796,7 @@ body {
   .glimpse-two .p-top {
     margin-bottom: 100px;
     margin-top: 20px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 2.4em;
     width: 82vw;
   }
@@ -814,9 +821,10 @@ body {
   }
   .wow-container .wow-right p {
     margin-top: 10px;
+    font-size: 1.5em;
   }
   .storebuttons {
-    margin-top: 1em;
+    margin-top: 0.2em;
   }
   .storebuttons .app-download-button img {
     width: 20vw;
@@ -840,6 +848,7 @@ body {
   }
   .working-slider-text .working-slider-text-paragraph {
     font-size: 2.5em;
+    font-weight: 600;
     width: 100%;
   }
   .arrow-image {
@@ -910,7 +919,7 @@ body {
   .working .working-slider .working-slider-text .working-slider-text-inner .working-slider-text-paragraph {
     font-size: 2em;
     width: 80%;
-    font-weight: inherit;
+    font-weight: 600;
     text-align: center;
   }
   .working .working-slider .working-slider-text .working-slider-text-inner .working-slider-text-sub-paragraph {
@@ -918,7 +927,7 @@ body {
     width: 90%;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .working .working-slider-image-back {
     background: url(./assets/working/back.png);
@@ -955,7 +964,7 @@ body {
   margin: 0;
 }
 .slider-love .working-slider-text-inner .storebuttons .app-download-button {
-  margin: 10px;
+  margin: 5px;
   margin-left: 0;
 }
 
@@ -992,7 +1001,7 @@ body {
   }
   .glimpse-two .p-top {
     margin-bottom: 6vh;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 2em;
   }
   .glimpse-two .wow {
@@ -1062,7 +1071,7 @@ body {
   .working .working-slider .working-slider-text .working-slider-text-inner .working-slider-text-paragraph {
     font-size: 1.2em;
     width: 80%;
-    font-weight: inherit;
+    font-weight: 600;
     text-align: center;
   }
   .working .working-slider .working-slider-text .working-slider-text-inner .working-slider-text-sub-paragraph {
@@ -1084,6 +1093,7 @@ body {
   }
   .slider-love .working-slider-text-paragraph {
     font-size: 0.2em;
+    font-weight: 600;
   }
   .footer {
     font-size: 0.6em;
@@ -1126,14 +1136,14 @@ body {
     padding: inherit;
   }
   .storebuttons-in-glimpse-two .app-download-button {
-    margin: 0px 10px;
+    margin: 0px 5px;
   }
   .storebuttons-in-glimpse-two .app-download-button img {
     margin: inherit;
     width: 150px;
   }
   .working-slider-text-inner .storebuttons .app-download-button {
-    margin: 10px;
+    margin: 5px;
     margin-left: 10px;
   }
 }
@@ -1174,7 +1184,7 @@ body {
   }
   .glimpse-two .p-top {
     margin-bottom: 7vh;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.5em;
   }
   .glimpse-two .h3 {
@@ -1189,14 +1199,13 @@ body {
     width: 90vw;
   }
   .glimpse-two .wow-right p {
-    font-size: 1.2 0.5em;
+    font-size: 1.2em;
   }
   .glimpse-two .storebuttons-in-glimpse-two {
     width: 100%;
   }
   .glimpse-two .storebuttons-in-glimpse-two .app-download-button img {
-    width: 100px;
-    padding: 10px;
+    padding-block: 10px;
     width: 150px;
   }
   .storebuttons-in-hero {
@@ -1273,7 +1282,7 @@ body {
     transition: 0.3s;
   }
   .storebuttons-in-glimpse-two {
-    flex-direction: column;
+    flex-direction: row;
   }
   .coin1 {
     width: 20px;
@@ -1368,7 +1377,8 @@ body {
     margin-bottom: 10px;
   }
   .working .working-slider .working-slider-text .working-slider-text-inner .working-slider-text-paragraph {
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: 600;
   }
   .working .working-slider .working-slider-text .working-slider-text-inner .working-slider-text-sub-paragraph {
     margin-bottom: 0px;
