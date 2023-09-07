@@ -7,6 +7,9 @@ import close from './assets/svg/close.svg'
 import arrow from './assets/hero/arrow.svg'
 import arrowDownBold from './assets/hero/arrow-down-bold.svg'
 import coin from './assets/hero/coin.png'
+// import {Link} from 'react-scroll'
+import { HashLink as Link } from 'react-router-hash-link'
+
 
 import { useState, useRef } from 'react';
 import { CSSTransition } from "react-transition-group";
@@ -40,8 +43,16 @@ function ScreenHero() {
           <div className='close-button' > <button  onClick={handleClick} > 
           <img src={close} alt='close-button'/> 
            </button> </div>
-          <div className='item' > <a href='#aloy-for-business' onClick={handleClick}>Aloy For Business</a> </div>
-          <div className='mobile  item'> <a  href='#how-it-works' onClick={handleClick}>How it Works?</a> </div>
+          <div className='item' > 
+            <Link to='#aloy-for-business' onClick={handleClick}>Aloy For Business</Link> </div>
+          <div className='mobile  item'> 
+          <Link  
+              onClick={handleClick}
+              to='#how-it-works' 
+            >
+                How it Works?
+            </Link> 
+          </div>
           <div className='item' > <a href='mailto:hello@getaloy.com' onClick={handleClick}>Contact Us</a> </div>
         </div>
       </CSSTransition>
@@ -54,8 +65,18 @@ function ScreenHero() {
           </div>
 
           <div className='header-right' >
-            <a className='tablet' href='#how-it-works'>How it works?</a>
-            <a className='desktop' href='#how-it-works'>How it works?</a>
+          <Link  
+              to='#how-it-works' 
+              className='tablet'
+            >
+                How it Works?
+            </Link> 
+            <Link  
+              to='#how-it-works' 
+              className='desktop'
+            >
+                How it Works?
+            </Link> 
             <button className='hamburg-button' onClick={handleClick} > 
               <img src={hamburgerIcon} alt='hamburder-icon'/> 
             </button>

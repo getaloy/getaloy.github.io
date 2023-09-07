@@ -8,7 +8,7 @@ import Privacy from './privacy';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter >
       <Routes>
           <Route index element={<App />} />
           <Route path="" element={<App />} />
