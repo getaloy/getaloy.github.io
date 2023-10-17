@@ -5,6 +5,7 @@ import App from './App';
 import { Routes, Route, HashRouter } from "react-router-dom";
 import Terms from './terms';
 import Privacy from './privacy';
+import BusinessApp from './Business_App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ root.render(
       <Routes>
           <Route index element={<App />} />
           <Route path="" element={<App />} />
+          <Route path="for-business" element={<BusinessApp />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="terms" element={<Terms />} />
       </Routes>

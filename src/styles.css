@@ -240,8 +240,8 @@ body {
   width: 80vw;
 }
 .glimpse-two .h3 {
-  font-size: 2em;
-  margin-bottom: -0.5em;
+  font-size: 3em;
+  margin-bottom: 0.5em;
 }
 
 .love-back {
@@ -672,13 +672,14 @@ body {
   .glimpse-one .p-top {
     width: 68vw;
     margin-top: 1em;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     font-size: 2em;
     font-weight: 600;
   }
   .glimpse-one .h3 {
     width: 70vw;
     font-size: 2.5em;
+    margin-bottom: 40px;
   }
   .glimpse-two .p-top {
     font-size: 1.4em;
@@ -686,7 +687,8 @@ body {
     font-weight: 600;
   }
   .glimpse-two .h3 {
-    font-size: 3em;
+    font-size: 2em;
+    margin-bottom: 0px;
   }
   .storebuttons-in-glimpse-two .app-download-button {
     padding: 10px;
@@ -730,7 +732,7 @@ body {
     z-index: 0;
   }
   .wow-container .wow {
-    width: 30vw;
+    width: 25vw;
   }
   .wow-container .wow-right {
     width: 70vw;
@@ -1097,7 +1099,8 @@ body {
     font-weight: 600;
   }
   .footer {
-    font-size: 0.6em;
+    font-size: 8px;
+    font-weight: 200;
   }
   .footer span {
     margin-right: 10px;
@@ -1235,6 +1238,13 @@ body {
   }
   .arrow-image {
     margin-bottom: 70px;
+  }
+  .footer {
+    font-size: 8px;
+    font-weight: 200;
+  }
+  .footer span {
+    margin-right: 10px;
   }
   .storebuttons-in-hero .app-download-button img {
     width: 250px;
