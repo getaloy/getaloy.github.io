@@ -1,3 +1,7 @@
+
+
+
+
 class SiteData{
     static qna = [
         {
@@ -21,6 +25,8 @@ class SiteData{
           answer : "You can expect to see an increase in business as you begin to implement our loyalty service. As customers start to engage with the enticing offers and rewards, they will be drawn to your business, leading to higher foot traffic and increased sales. The benefits and value they receive from the loyalty program will encourage them to remain loyal to your establishment, fostering a sense of satisfaction and loyalty. Over time, this loyalty will result in repeat business, customer retention, and positive word-of-mouth, contributing to the growth and success of your business."
         },
     ]
+
+    
 
 }
 

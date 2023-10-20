@@ -12,8 +12,9 @@ function CommonQuestionsAskedSection() {
         <div className='common-questions-asked-section-questions' >
          {  
           SiteData.qna.map(
-            (e) => (
+            (e, index) => (
               <QuestionBox 
+              key = {index}
                 question = {e.question}
                 answer = {e.answer}
               />

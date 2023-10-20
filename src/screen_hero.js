@@ -17,10 +17,10 @@ function ScreenHero() {
   const nodeRef = useRef(null);
 
   const handleClick = () => {
-    console.log('clicked')
+   
     let what = !inProp
     setInProp(what)
-    console.log(inProp)
+   
   }
 
   return (

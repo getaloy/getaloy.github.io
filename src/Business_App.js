@@ -1,5 +1,5 @@
 
-import './css/styles.css'
+import './buisness_css/styles.css'
 import './App.css'
 import HeroSection from './sections/hero_section';
 import BrandsSection from './sections/brands_section';

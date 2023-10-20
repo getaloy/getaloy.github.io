@@ -1,27 +1,27 @@
 import React from 'react'
 import aloy_logo from "../assets/svg/aloy_logo.svg"
 import hero_image from "../assets/svg/hero_image.svg"
-import hamburgerIcon from '../assets/svg/hamburger.svg'
-import close from '../assets/svg/close.svg'
+// import hamburgerIcon from '../assets/svg/hamburger.svg'
+// import close from '../assets/svg/close.svg'
 
 
 
-import { HashLink as Link } from 'react-router-hash-link'
+// import { HashLink as Link } from 'react-router-hash-link'
 
-import { useState, useRef } from 'react';
-import { CSSTransition } from "react-transition-group";
+// import { useState, useRef } from 'react';
+// import { CSSTransition } from "react-transition-group";
 
 function HeroSection() {
 
-    const [inProp, setInProp] = useState(false);
-    const nodeRef = useRef(null);
+    // const [inProp, setInProp] = useState(false);
+    // const nodeRef = useRef(null);
   
-    const handleClick = () => {
-      console.log('clicked')
-      let what = !inProp
-      setInProp(what)
-      console.log(inProp)
-    }
+    // const handleClick = () => {
+ 
+    //   let what = !inProp
+    //   setInProp(what)
+  
+    // }
 
   return (
     <section className='hero-section'>
@@ -65,7 +65,9 @@ function HeroSection() {
         <div className='hero-business'>
             <div className='hero-left'>
                 <div className='main-text'>
-                    OFFER<span className='solid'>Loyalty BENEFITS</span>to grow your Restaurant & RETAIL business
+                    <span>OFFER<span className='solid'>Loyalty BENEFITS</span></span>
+                    <span>to grow your Restaurant </span>
+                    <span>& RETAIL business</span>
                 </div>
                 <div className='hero-paragraph' >
                 Retain customers for longer & increase revenue with milestone-based loyalty benefits such as cashbacks, discounts and personalized rewards.
