@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.68f96e93.css",
-    "main.js": "/static/js/main.f61210b0.js",
+    "main.css": "/static/css/main.8ccfc275.css",
+    "main.js": "/static/js/main.c20c02bd.js",
     "static/media/congratsgif.gif": "/static/media/congratsgif.27263ed3601fd249d95b.gif",
     "static/media/drive.png": "/static/media/drive.09f9c683cddc01b403da.png",
     "static/media/gain.png": "/static/media/gain.401f81e6f8488908c105.png",
@@ -22,9 +22,10 @@
     "static/media/frozen_house.png": "/static/media/frozen_house.1e8e8ae5d680ee3db839.png",
     "static/media/personalized_rewards.svg": "/static/media/personalized_rewards.638656df19b999e365cb349263cb1511.svg",
     "static/media/kuchen_helado.png": "/static/media/kuchen_helado.b1fd2e45e6b048a10fc8.png",
+    "static/media/Bhuvaneswari_Jagan_mohan.jpg": "/static/media/Bhuvaneswari_Jagan_mohan.cf4e7009ca0cc6216397.jpg",
     "static/media/your_own_loyality_program.svg": "/static/media/your_own_loyality_program.2788b272a173b8f93674067964202202.svg",
     "static/media/special_day_offer.svg": "/static/media/special_day_offer.d298370c14126ecc591e012707029716.svg",
-    "static/media/profile.png": "/static/media/profile.8ce92b1596a50c41534d.png",
+    "static/media/Afzal_Hussain.jpg": "/static/media/Afzal_Hussain.47373394d7ce590ba1cc.jpg",
     "static/media/Noirden-Regular.ttf": "/static/media/Noirden-Regular.f052e915f08251ce6247.ttf",
     "static/media/Noirden-SemiBold.ttf": "/static/media/Noirden-SemiBold.b8d7b4ad0b3fbc3d4d71.ttf",
     "static/media/Noirden-Bold.ttf": "/static/media/Noirden-Bold.9f6b94e530cacbd865d4.ttf",
@@ -54,11 +55,11 @@
     "static/media/hamburger.svg": "/static/media/hamburger.b8fa93e0a1485bc1cc22740a8ca4805d.svg",
     "static/media/close.svg": "/static/media/close.c0a53d8c5fecbac8c95db4e963c1b9be.svg",
     "static/media/quote.svg": "/static/media/quote.d37f1d9e3abcc8f436970200d27d983d.svg",
-    "main.68f96e93.css.map": "/static/css/main.68f96e93.css.map",
-    "main.f61210b0.js.map": "/static/js/main.f61210b0.js.map"
+    "main.8ccfc275.css.map": "/static/css/main.8ccfc275.css.map",
+    "main.c20c02bd.js.map": "/static/js/main.c20c02bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.68f96e93.css",
-    "static/js/main.f61210b0.js"
+    "static/css/main.8ccfc275.css",
+    "static/js/main.c20c02bd.js"
   ]
 }
